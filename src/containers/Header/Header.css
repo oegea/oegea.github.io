@@ -1,0 +1,44 @@
+.header{
+    width: 100%;
+    height: 50px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    top: 0;
+    user-select: none;
+  }
+  
+  .header-content{
+    margin-left: 20%;
+    width: 60%;
+  }
+  
+  .header-logo{
+    color: white;
+    margin-top: 12px;
+    float: left;
+  }
+  
+  .header-logo-text{
+    display: inline-block;
+    margin-left: 20px;
+    position: relative;
+    top: -4px;
+    font-size: 20px;
+  }
+  
+  .header-links{
+    float: right;
+    margin-top: 15px;
+  }
+  
+  .header-links-link{
+    display: inline-block;
+    margin-left: 25px;
+    cursor: pointer;
+  }
+  
+  .header-links-link:hover{
+    font-weight: bold;
+    margin-left: 24px;
+  }
