@@ -28,6 +28,18 @@ class BlogApi {
             );
         });
     }
+
+    getPost(postId: string) {
+        return new Promise <Post> ((resolve, reject) => {
+            
+            fetch(`/api/blog/${postId}/post.json`)
+                .then((response: Response) => response.json())
+                .then((response: Post) => {
+                    resolve(response);
+                }
+            );
+        });
+    }
 }
 
 export default BlogApi;

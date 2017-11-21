@@ -8,8 +8,10 @@ class Header extends React.Component {
       <div className="header">
         <div className="header-content">
           <div className="header-logo">
-            <i className="material-icons">developer_mode</i>
-            <div className="header-logo-text">I'm Oriol</div>
+            <a href="/" className="no-style">
+              <i className="material-icons">developer_mode</i>
+              <div className="header-logo-text">I'm Oriol</div>
+            </a>
           </div>
 
           <div className="header-links">

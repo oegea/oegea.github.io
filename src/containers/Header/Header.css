@@ -6,6 +6,7 @@
     position: fixed;
     top: 0;
     user-select: none;
+    z-index: 20;
   }
   
   .header-content{

@@ -3,23 +3,8 @@ import { Switch, Route } from 'react-router-dom';
 import './Content.css';
 
 import Blog from '../../components/Blog/Blog';
+import Post from '../../components/Post/Post';
 
-interface PostParams {
-    match: {
-        params: {
-            post: string
-        }
-    };
-}
-class Post extends React.Component<PostParams> {
-    render() {
-        return(
-            <div>
-                <p>{this.props.match.params.post}</p>
-            </div>
-        );
-    }
-}
 class Content extends React.Component {
   render() {
     return (

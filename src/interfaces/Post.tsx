@@ -1,5 +1,5 @@
 interface Post {
-    ke?: string;
+    key?: string;
     url: string;
     title: string;
     photo: string;

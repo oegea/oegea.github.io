@@ -2,8 +2,36 @@
     {
         "url": "soap-salesforce-en-nodejs-como-un-orm-sencillo-y-rapido",
         "title": "SOAP Salesforce en NodeJS como un ORM: Sencillo y rápido",
-        "photo": "https://www.oriol.im/wp-content/uploads/2017/09/1436439824nodejs-logo.png",
+        "photo": "/api/blog/soap-salesforce-en-nodejs-como-un-orm-sencillo-y-rapido/post.png",
         "category": "Salesforce",
-        "intro": "Utiliza el SOAP API de Salesforce desde NodeJS"
+        "intro": "Utiliza el SOAP API de Salesforce desde NodeJS cómo si de un ORM se tratase. Desarrolla integraciones de forma rápida, y despreocupándote de procedimientos repetitivos."
+    },
+    {
+        "url": "automatizando-el-proceso-de-compilacion-de-angularjs-con-gulp",
+        "title": "Automatizando el proceso de compilación de AngularJS con GULP",
+        "photo": "/api/blog/automatizando-el-proceso-de-compilacion-de-angularjs-con-gulp/post.png",
+        "category": "AngularJS",
+        "intro": "Automatizar el proceso de compilación de una aplicación web facilita las tareas diarias de desarrollo, y ayuda a optimizar la carga de la aplicación. En este tutorial, veremos cómo hacerlo utilizando GULP. "
+    },
+    {
+        "url": "utilizando-el-servicio-soap-de-salesforce-desde-nodejs",
+        "title": "Utilizando el servicio SOAP de Salesforce desde NodeJS",
+        "photo": "/api/blog/utilizando-el-servicio-soap-de-salesforce-desde-nodejs/post.png",
+        "category": "Salesforce",
+        "intro": "Pese a que la API SOAP de Salesforce dispone de Toolkits para algunos entornos de programación, no sucede así con NodeJS. soap_salesforce es una librería Javascript de creación propia, que ayuda a conectarse a la API, y realizar algunas operaciones básicas."
+    },
+    {
+        "url": "cinco-consejos-para-programar-un-plugin-de-wordpress-mejor",
+        "title": "Cinco consejos para programar un plugin de Wordpress mejor",
+        "photo": "/api/blog/cinco-consejos-para-programar-un-plugin-de-wordpress-mejor/post.jpg",
+        "category": "Wordpress",
+        "intro": "Gracias a la documentación existente en Internet, aprender a desarrollar un plugin de Wordpress no es tarea difícil. No obstante, si no observamos algunos detalles y buenas prácticas antes de empezar, la deuda técnica puede llegar a ser considerable."
+    },
+    {
+        "url": "im-oriol",
+        "title": "I'm Oriol",
+        "photo": "/api/blog/im-oriol/post.png",
+        "category": "Noticias",
+        "intro": "¡Hola! Soy Oriol, y bajo el dominio oriol.im (que he inspirado en el sitio web de @im_dario), empiezo hoy mi blog personal, al que he decidido llamar 'I'm Oriol'. En principio no es un lugar donde escribir largas publicaciones, o material altamente consolidado..."
     }
 ]
