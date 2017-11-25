@@ -29,6 +29,10 @@ class BlogApi {
         });
     }
 
+    /**
+     * Obtiene información de un post concreto
+     * @param postId Identificador del post
+     */
     getPost(postId: string) {
         return new Promise <Post> ((resolve, reject) => {
             
@@ -36,8 +40,11 @@ class BlogApi {
                 .then((response: Response) => response.json())
                 .then((response: Post) => {
                     resolve(response);
-                }
-            );
+                })
+                .catch(() => {
+                    alert('Ha ocurrido un error');
+                    reject();
+                });
         });
     }
 }
